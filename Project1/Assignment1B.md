@@ -9,7 +9,7 @@ Let imagine that its a 2-D(Grayscale) image i.e. the mathematical representation
 2D image array will have numbers between 0 to 255, representing pixels. This array might look like -
 
 ```
-	   [  0,   0,   0, ...,   0,   0,   0],
+       [  0,   0,   0, ...,   0,   0,   0],
        [  2,   1,   2, ...,   0,   0,   0],
        [  0,   0,   0, ...,   0,   0,   0],
        ..., 
