@@ -21,9 +21,10 @@ Let imagine that its a 2-D(Grayscale) image i.e. the mathematical representation
 To perform a convolution on this image we will transform each and every pixel in the same way. 
 
 Lets take a 2-D kernel/filter  -
-$$
-\begin{bmatrix}-1 & -1 & -1\\-1 & -8 & -1\\-1 & -1 & -1\end{bmatrix}
-$$
+
+$$ \begin{bmatrix}
+       -1 & -1 & -1 \\ -1 & -8 & -1 \\ -1 & -1 & -1
+\end{bmatrix}$$
 How will this 2-D kernel convolve on the image array ?
 
 We will take a 3x3 matrix from the top left corner of the image and multiply it with the 2-D kernel matrix and will add all the members of the resulting 3x3 matrix. This will be the result of this convolution. Similarly 
@@ -79,12 +80,13 @@ Resulting output is 28x28x32, the _channel size is reduced significantly from 19
 
 
 Lets consider and example to understand the 3x3 convolution. Following is the input(I), kernel(K) and output(O) matrix.
+
 $$
-\begin{bmatrix}1 & 2 & 3 & 4 & 5\\5 & 1 & 3 & 4 & 2\\4 & 2 & 3 & 1 & 5\\1 & 5 & 3 & 4 & 2\\1 & 4 & 3 & 2 & 5\end{bmatrix}
+\begin{bmatrix} 1&2&3&4&5\\ 5&1&3&4&2\\ 4&2&3&1&5\\ 1&5&3&4&2\\ 1&4&3&2&5 \end{bmatrix}
 <=convolution=>
-\begin{bmatrix}-1 & -2 & -1\\0 & 0 &0\\1 & 2 & 1\end{bmatrix}
+\begin{bmatrix} -1&-2&-1\\ 0&0&0\\ 1&2&1 \end{bmatrix}
 =
-\begin{bmatrix}3 & -3 & -6\\4 & 4 &0\\-11 & 3 & 2\end{bmatrix}
+\begin{bmatrix} 3&-3&-6\\ 4&4&0\\ -11&3&2 \end{bmatrix}
 $$
 
 
