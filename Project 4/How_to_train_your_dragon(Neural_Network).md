@@ -1,5 +1,5 @@
 ## How to train your dragon (Neural Network)
 ### - Fix the architecture of the NN, by fixing the number of layers in the convolutional(Increase channels) and transition block(decrease the channel dimentions/maxpool and the number of channels/1x1).
 ### - The number of hidden layers in the convolution block depends on the size of the object and the receptive field at which we will be able to capture the edges/gradients.
-### - Train with max number of parameters, for example use 32 - 64 - 128 - 256 -512 etc. and observe the results and accuracy.
+### - Train with max number of parameters, for example use 32 - 64 - 128 - 256 - 512 etc. and observe the results and accuracy.
 ### - Train with the minimum number of parameters and observe the results and accuracy.
