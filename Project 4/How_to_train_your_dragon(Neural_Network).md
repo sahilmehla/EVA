@@ -10,4 +10,4 @@
 
 ## Points to remember
 - Accuracy will increase with batch size to a certain point then it will start decreasing. The max batch size resulting in highest accuracy depends on the GPU capacity.
-- For finding right intial learning rate for a image dataset, we can have to use the learning rate finder.
+- For finding right intial learning rate for a image dataset, we have to use the learning rate finder.
