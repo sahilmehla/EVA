@@ -6,7 +6,7 @@
 ### 5. Increase the expressivity (no. of parameters) of the networker to increase the accuracy (sometimes depends on the problem statement or the hardware limitations.
 ### 6. Add dropout(less than 0.15) after each convolutional and transition block, but not in the output block. This will improve the acuracy of the networker overall. Note that here the training accuracy will be less than the validation accuracy due to dropouts during training. Dropout provided more redundancy to the network. We will learn later that if we use *"Image Augmentation"* we might not need dropout.
 ### 7. Reduce the learning rate after each epoch to fine tune the accuracy further. The right approach that will be taught later is *"Reduce LR(learning rate) on plateu"*.
-### 8. Finally play with number of parameters , batch normalization and dropout etc. that can be tried to train the networker with minimum number of parameters acheiving the best accuracy.
+### 8. Finally play with number of parameters , batch normalization and dropout etc. that can be tried to train the network with minimum number of parameters acheiving the best accuracy.
 
 ## Points to remember
 - Accuracy will increase with batch size to a certain point then it will start decreasing. The max batch size resulting in highest accuracy depends on the GPU capacity.
