@@ -12,3 +12,4 @@
 - Accuracy will increase with batch size to a certain point then it will start decreasing. The max batch size resulting in highest accuracy depends on the GPU capacity.
 - For finding right intial learning rate for a image dataset, we have to use the learning rate finder.
 - There is a tool called eNAS (Efficient Network architecture search) to get the best architecture to train on a dataset.
+- Yolo2 first introduced skip connections(funtional api) - To be learned later.
