@@ -23,3 +23,8 @@
 ## 23. Learning Rate
 ## 24. LR schedule and concept behind it
 ## 25. Adam vs SGD
+
+
+
+over fitting
+batch size, epoch, forward propagation, back propagation
