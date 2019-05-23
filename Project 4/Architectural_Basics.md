@@ -15,7 +15,10 @@ Receptive field of a layer is the logical area of the input image (at 1st layer)
 And so on ....
 
 ## 3. Kernels and how do we decide the number of kernels?
+Kernel is basically a feature extractor. Kernels are randomly initialized and trained by backward propagation to extract the right features so that model can predict with highest acuuracy.    
+Number of kernels depends on the expressivity expected from the NN which in turn depends on the inter and intra-class variations in the features of the images.
 ## 4. How many layers
+How many layers depends on the size of the objects in the images.
 ## 5. How do we know our network is not going well, comparatively, very early
 ## 6. MaxPooling
 ## 7. Position of MaxPooling
