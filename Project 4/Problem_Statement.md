@@ -8,7 +8,7 @@
 ### 7. All of you iterations are in a single folder
 ### 8. All of your iterations have a Header note, describing what all you are planning to do in this code
 ### 19. All of your code is very well documented
-### 20. There is a readme file describing the above mentioned (at least 24) points. The title of this file is Architectural Basics. You need to put them in order in which you will think about them or execute them in your experiments thought behind that order
+### 20. There is a readme file describing the below mentioned (at least 24) points. The title of this file is Architectural Basics. You need to put them in order in which you will think about them or execute them in your experiments thought behind that order
 
 - How many layers,
 - MaxPooling,
