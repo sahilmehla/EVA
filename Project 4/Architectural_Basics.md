@@ -40,11 +40,15 @@ Dense layers are not used in DNN's anymore. Dense layers are layers where each o
 ## 14. When do we stop convolutions and go ahead with a larger kernel or some other alternative (which we have not yet covered)
 When the receptive field of the layer is nearly equal to the object size in the image(assuming there is only single object as in MNIST). Now we go ahead and go ahead with the larger kernel which is of the same dimensions as the image size. Instead of this we will use *Global average pooling* in future.
 ## 14.5 Over fitting
-Overfitting 
+Overfitting is achieved when there is a difference between the testing accuracy and validation accuracy. Here the validation acuuracy is not reaching the value what we expect it to achieve.
 ## 15. Image Normalization
+Image normalization is normalizing the pixel values of the input image. Here we divide the each pixel value by largest number so that each pixel value in the image matix will become range bound.
 ## 16. Batch Normalization
+Batch normalization is logically same as image normalization. But here we apply normalization in between two layers of the model so that neurons in each channel will be range bound and all the feature will have the same voice before moving ahead.
 ## 17. The distance of Batch Normalization from Prediction
+We do last batch normalization after the final 1x1. This will basically be part of global average pooling(to be learbed later).
 ## 18. DropOut
+
 ## 19. When do we introduce DropOut, or when do we know we have some overfitting
 ## 20. Batch Size, and effects of batch size
 ## 21. Number of Epochs and when to increase them
