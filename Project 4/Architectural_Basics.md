@@ -1,3 +1,5 @@
+# Architectural Basics
+
 ## 1. 3x3 Convolutions
 ## 2. Receptive Field
 ## 3. Kernels and how do we decide the number of kernels?
@@ -12,6 +14,7 @@
 ## 12. SoftMax
 ## 13. Dense Layers or FC Layers
 ## 14. When do we stop convolutions and go ahead with a larger kernel or some other alternative (which we have not yet covered)
+## 14.5 Over fitting
 ## 15. Image Normalization
 ## 16. Batch Normalization
 ## 17. The distance of Batch Normalization from Prediction
@@ -23,8 +26,4 @@
 ## 23. Learning Rate
 ## 24. LR schedule and concept behind it
 ## 25. Adam vs SGD
-
-
-
-over fitting
-batch size, epoch, forward propagation, back propagation
+## 26. Forward pass, the loss function, the backward pass, and the weight update
