@@ -48,9 +48,11 @@ Batch normalization is logically same as image normalization. But here we apply 
 ## 17. The distance of Batch Normalization from Prediction
 We do last batch normalization after the final 1x1. This will basically be part of global average pooling(to be learbed later).
 ## 18. DropOut
-
+Drop out is the concept of dropping out few kernels in a single layer during training. We apply dropout of less that 0.15 at each layer. This helps NN to achieve higher redundancy and learn new ways to predict the class. After dropout the testing accuracy will be less then the validation accuracy.
 ## 19. When do we introduce DropOut, or when do we know we have some overfitting
+When the validation accuracy is less then the testing accuracy.
 ## 20. Batch Size, and effects of batch size
+
 ## 21. Number of Epochs and when to increase them
 ## 22. When to add validation checks
 ## 23. Learning Rate
