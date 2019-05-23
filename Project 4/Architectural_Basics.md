@@ -52,8 +52,9 @@ Drop out is the concept of dropping out few kernels in a single layer during tra
 ## 19. When do we introduce DropOut, or when do we know we have some overfitting
 When the validation accuracy is less then the testing accuracy.
 ## 20. Batch Size, and effects of batch size
-
+Batch size is the number of images on which the network learns in parallel at once. After each batch the backward propagation adjusts the kernel parameters to achieve higher accuracy.
 ## 21. Number of Epochs and when to increase them
+Number of epochs is the number of times we want our network to train through the complete training image dataset. We increase the number of epochs to achieve the higher accuracy by using a variable learning rate after each epoch.
 ## 22. When to add validation checks
 ## 23. Learning Rate
 ## 24. LR schedule and concept behind it
