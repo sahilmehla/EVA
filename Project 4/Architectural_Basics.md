@@ -61,7 +61,7 @@ We add validation checks to basically freeze our final model which achieve best 
 Learning rate is the rate by which gradiend descent occurs. We reduce the learning rates as we train our network to fine tune the accuracy of the DNN.
 ## 24. LR schedule and concept behind it
 LR schedule is used to fine tune the accuracy of the DNN as we train our network. Concept behind it is basically slowing down as we reach our destination(maximum accuracy and minimum loss)
-### 25. Forward pass, the loss function, the backward pass, and the weight update
+## 25. Forward pass, the loss function, the backward pass, and the weight update
 Let's take an exammple of a model where
 - batch size=100
 - epoch=20
