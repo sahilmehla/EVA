@@ -54,10 +54,10 @@ When the validation accuracy is less then the testing accuracy.
 ## 20. Batch Size, and effects of batch size
 Batch size is the number of images on which the network learns in parallel at once. After each batch the backward propagation adjusts the kernel parameters to achieve higher accuracy.
 ## 21. Number of Epochs and when to increase them
-Number of epochs is the number of times we want our network to train through the complete training image dataset. We increase the number of epochs to achieve the higher accuracy by using a variable learning rate after each epoch.
+Number of epochs is the number of times we want our network to train through the complete training image dataset. We increase the number of epochs to achieve the higher accuracy by using a reduced learning rate after each epoch. *Reduce LR(learning rate) on plateu* is a algorithm which will be used later to reduce the learning rate after a certain number of batches.
 ## 22. When to add validation checks
+We add validation checks to basically freeze our final model which achieve best validation accuracy.
 ## 23. Learning Rate
+Learning rate is the rate by which gradiend descent occurs. We reduce the learning rates as we train our network to fine tune the accuracy of the DNN.
 ## 24. LR schedule and concept behind it
-## 25. Adam vs SGD
-## 26. Forward pass, the loss function, the backward pass, and the weight update
-
+LR schedule is used to fine tune the accuracy of the DNN as we train our network. Concept behind it is basically slowing down as we reach our destination(maximum accuracy and minimum loss)
